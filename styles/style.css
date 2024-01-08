@@ -2,12 +2,15 @@
 
 * {
     font-family: 'Merriweather', serif;
-    ;
+    margin: 0;
 }
 
 
 #parent .child-banner {
+    margin-top: 0px;
     background-image: url('../resources/Banner\ Image.png');
+    border-radius: 16px;
+
 }
 
 .child-banner {
@@ -58,6 +61,7 @@
 
 /*  section two start  */
 #discount-section {
+    margin-top: 120px;
     margin-left: auto;
     margin-right: auto;
     width: 802.9px;
@@ -98,7 +102,6 @@
 
 /* section three starts */
 .child-banner {
-    border: 1px solid red;
     margin-top: 400px;
     background-image:url('../resources/Vectorrr.png') ;
 }
@@ -135,24 +138,22 @@ button {
 /* section four */
 
 .join-now-main {
-    border: 1px solid red;
     margin-left: auto;
     margin-right: auto;
     margin-top: 120px;
     width: 1320px;
     height: 482px;
     flex-shrink: 0;
+
 }
 
 .join-now-main .join-now {
     color: #F00;
     text-align: center;
-    font-family: Inter;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
     line-height: 56px;
-    /* 175% */
     text-transform: capitalize;
 }
 
@@ -180,7 +181,6 @@ button {
     flex-shrink: 0;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid red;
     margin-top: 150px;
     align-items: center;
     padding: 20px;
@@ -229,7 +229,6 @@ button {
     height: 365px;
     flex-shrink: -1;
     border-radius: 436px;
-    border: 15px solid #F00;
     border-radius: 332.844px;
     padding: 18px;
     background: #FFF;
@@ -277,7 +276,6 @@ button {
 #holiday-main {
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid red;
     margin-top: 120px;
     width: 1366px;
     height: 950px;
@@ -327,7 +325,6 @@ button {
 .holiday-images .gift-box {
     position: relative;
     z-index: 1;
-    border: 2px solid black;
     height: 100px;
     margin: 30px;
 }
@@ -356,7 +353,6 @@ button {
 /* section seven */
 
 .portfolio-container {
-    border: 1px solid red;
     margin-top: 120px;
     background: #FFF;
     width: 1376px;
@@ -411,7 +407,6 @@ button {
     padding: 24px;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
-    border: 1px solid red;
 
 }
 
