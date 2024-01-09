@@ -168,12 +168,14 @@
     width: 1320px;
     height: 482px;
     flex-shrink: 0;
-    background:linear-gradient(180deg, rgba(255, 0, 0, 0.10), rgba(255, 0, 0, 0.00));
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10), rgba(255, 0, 0, 0.00));
 
 }
-.join-now{
+
+.join-now {
     padding: 100px;
 }
+
 .join-now-main .join-now {
     color: #F00;
     text-align: center;
@@ -207,9 +209,10 @@
     flex-shrink: 0;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 150px;
+    margin-top: 120px;
     align-items: center;
     padding: 20px;
+    /* border: 1px solid red; */
 
 }
 
@@ -220,15 +223,16 @@
 
 .new-offer .heading {
     color: #F00;
-    text-align: center;
+    text-align: left;
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin-top: 25px;
 }
 
 .new-offer .mid {
-    text-align: center;
+    text-align: left;
     color: #070211;
     font-family: Merriweather;
     font-size: 40px;
@@ -236,18 +240,23 @@
     font-weight: 900;
     line-height: normal;
     text-transform: capitalize;
+    margin-top: 22px;
 }
 
 .new-offer .para {
     width: 393px;
-    text-align: center;
+    text-align: left;
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
-    text-wrap: wrap;
+    margin-top: 22px;
+}
+
+.new-offer {
+    margin-left: 0;
 }
 
 .new-offer-section .image {
@@ -258,14 +267,14 @@
     border-radius: 332.844px;
     padding: 18px;
     background: #FFF;
+    background: rgba(255, 255, 255, 0) -91.279px 0px / 150.038% 100% no-repeat;
+    border: 15px solid #F00;
 }
 
 .two-zero {
     margin: auto;
     /* border: 1px solid red; */
-    margin-right: -12px;
     text-align: left;
-    margin-bottom: 9em;
 }
 
 .two-zero h2 {
@@ -285,7 +294,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
-    /* 160% */
 }
 
 .happy-new-year {
@@ -294,7 +302,7 @@
     flex-shrink: 0;
     position: absolute;
     margin-top: 338px;
-    margin-left: 66em;
+    margin-left: 62em;
 }
 
 /* section6 */
