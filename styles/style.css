@@ -168,9 +168,12 @@
     width: 1320px;
     height: 482px;
     flex-shrink: 0;
+    background:linear-gradient(180deg, rgba(255, 0, 0, 0.10), rgba(255, 0, 0, 0.00));
 
 }
-
+.join-now{
+    padding: 100px;
+}
 .join-now-main .join-now {
     color: #F00;
     text-align: center;
@@ -189,11 +192,10 @@
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
-    display: inline-flex;
     padding: 16px 32px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+    margin-top: 48px;
+
+
 }
 
 /* section five */
