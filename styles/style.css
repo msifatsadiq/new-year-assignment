@@ -13,7 +13,7 @@
 }
 
 .child-banner {
-    width: 1320px;
+    width: 1302px;
     height: 600px;
     flex-shrink: 0;
     text-align: center;
@@ -212,7 +212,7 @@
     margin-top: 120px;
     align-items: center;
     padding: 20px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
 }
 
@@ -313,7 +313,7 @@
     margin-top: 120px;
     width: 1363px;
     height: 763px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .holiday-text {
@@ -462,8 +462,8 @@
 
 .subscribe-main {
     margin-top: 120px;
-    width: 1376px;
-    height: 739px;
+    width: 1360px;
+    height: 670px;
     margin-left: auto;
     margin-right: auto;
     padding: 24px;
@@ -474,7 +474,7 @@
 
 .subscribe-image {
     text-align: center;
-    padding: 50px;
+    padding: 82px;
 }
 
 .input-email {
@@ -548,6 +548,7 @@ footer .all-right {
     text-align: left;
     margin-left: 50px;
     margin-top: 20px;
+    margin-top: 134px;
 
 
 }
@@ -560,9 +561,11 @@ footer .unsubscribe {
 .icon-footer .one-f {
     display: flex;
     text-align: center;
+    margin: -68px 16px -11px 65em;
 }
 
 .icon-footer .two-f {
     display: flex;
     text-align: justify;
+    margin: 26px 13px 28px 63em;
 }
