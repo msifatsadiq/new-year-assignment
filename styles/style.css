@@ -8,7 +8,7 @@
 /* section one starts */
 #parent .child-banner {
     margin-top: 40px;
-    background-image: linear-gradient(black, rgba(252, 252, 252, 0)),url('../resources/Banner\ Image.png');
+    background-image: linear-gradient(black, rgba(252, 252, 252, 0)), url('../resources/Banner\ Image.png');
     border-radius: 16px;
 }
 
@@ -50,6 +50,7 @@
 }
 
 /*  section two start  */
+
 #discount-section {
     margin-top: 120px;
     margin-left: auto;
@@ -57,7 +58,6 @@
     width: 802.9px;
     height: 500px;
     flex-shrink: 0;
-    /* display: flex; */
 }
 
 .discount_main {
@@ -71,29 +71,35 @@
 }
 
 .discount_message_1 {
+    margin-top: 48px;
     color: #F00;
     text-align: center;
     font-family: Inter;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    line-height: normal;
 }
 
 .discount_message_2 {
+    margin-top: 16px;
     color: #070211;
     text-align: center;
     font-family: Inter;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
+}
+
+.discount-image {
+    margin-top: 48px;
+    width: 802.9px;
+    height: 500px;
 }
 
 /* section three starts */
 .child-banner {
     margin-top: 400px;
-    background-image:url('../resources/Vectorrr.png') ;
+    background-image: url('../resources/Vectorrr.png');
 }
 
 .mid-header-msg {
@@ -460,7 +466,7 @@ button {
     text-align: center;
     margin-top: 30px;
     word-spacing: 20px;
-    
+
 
 }
 
@@ -472,27 +478,25 @@ button {
     line-height: normal;
 }
 
-footer .all-right{
+footer .all-right {
     text-align: left;
     margin-left: 50px;
     margin-top: 20px;
 
 
 }
-footer .unsubscribe{
+
+footer .unsubscribe {
     text-align: end;
     margin-right: 40px;
 }
-.icon-footer .one-f{
+
+.icon-footer .one-f {
     display: flex;
     text-align: center;
 }
-.icon-footer .two-f{
+
+.icon-footer .two-f {
     display: flex;
     text-align: justify;
 }
-
-
-
-
-
